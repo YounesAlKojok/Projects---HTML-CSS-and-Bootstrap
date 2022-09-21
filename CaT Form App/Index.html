@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Form | App</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="Main">
+      <header>
+        <nav class="navbar bg-light">
+          <a href="#s2" class="nav nav-link"><span>Cats Love </span></a>
+          <a href="#s3" class="nav nav-link"><span>Cats Hate</span> </a>
+          <a href="#s4" class="nav nav-link"><span>Fill Form</span></a>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h1 class="bg-primary text-white p-2">Cat Form App</h1>
+          <figure>
+            <a href="https://bit.ly/3BV3ddu"
+              ><img src="img//cat1.jpg" class="img-fluid" alt="orange cat"
+            /></a>
+            <figcaption>Click to view more photos</figcaption>
+          </figure>
+        </section>
+        <section>
+          <ul class="list-group list-group-flush">
+            <h3 id="s2" class="list-group-item list-group-item-action active">
+              Things Cat Loves
+            </h3>
+            <li class="list-group-item">Get a Really Nice Scratching</li>
+            <li class="list-group-item">Some Extra Time Cuddling</li>
+            <li class="list-group-item">Lasagna</li>
+          </ul>
+          <figure>
+            <img src="img//lasagna.jpg" alt="" />
+            <figcaption>cats <em>love </em>lasagna</figcaption>
+          </figure>
+        </section>
+        <section>
+          <ol class="list-group list-group-flush">
+            <h3 id="s3" class="list-group-item list-group-item-action active">
+              Things Cat Hates
+            </h3>
+            <li class="list-group-item">Not enough attention</li>
+            <li class="list-group-item">Hates thunder</li>
+            <li class="list-group-item">Other cats</li>
+          </ol>
+          <p>
+            <figure>
+              <img src="img//cat2.jpg" alt="" />
+              <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+          </p>
+        </section>
+        <section>
+          <form id="s4" action="#">
+            <fieldset>
+              <legend class="p-0 mb-1 bg-primary text-white">
+                Is your cat Indoor or outdoor cat?
+              </legend>
+              <label
+                ><input
+                  type="radio"
+                  id="indoor"
+                  name="indoor-outdoor"
+                  value="indoor"
+                  checked
+                />Indoor</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  id="outdoor"
+                  name="indoor-outdoor"
+                  value="outdoor"
+                />Outdoor</label
+              >
+            </fieldset>
+            <fieldset>
+              <legend class="p-0 mb-1 bg-primary text-white">
+                What's your cat's personality?
+              </legend>
+              <input type="checkbox" value="loving" id="loving" checked />
+              <label for="loving">Loving</label>
+              <input type="checkbox" value="lazy" id="lazy" /><label for="lazy"
+                >Lazy</label
+              >
+              <input type="checkbox" value="energetic" id="energetic" />
+              <label for="energetic">Energetic</label>
+            </fieldset>
+            <input
+              type="text"
+              name="catphotourl"
+              placeholder="cat photo URL"
+              required
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>No Copyright</p>
+      </footer>
+    </div>
+  </body>
+</html>

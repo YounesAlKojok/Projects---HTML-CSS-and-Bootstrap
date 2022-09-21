@@ -1,0 +1,109 @@
+body {
+  background-image: url(img/cafeMenuBackground.jpg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-contenet {
+  width: 80%;
+  background-color: burlywood;
+  max-width: 500px;
+  margin: auto;
+  padding: 0px 10px 0px;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  padding-top: 5px;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1,
+h2 {
+  font-family: impact, sans-serif;
+}
+
+header span {
+  font-size: larger;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+header hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.items p {
+  display: inline-block;
+  font-size: 15pt;
+  text-transform: capitalize;
+  line-height: 0px;
+  margin-top: 12px;
+}
+
+.flavor {
+  width: 49%;
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+  width: 49%;
+}
+
+.bot-hr {
+  margin-top: 15px;
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+footer {
+  height: 70px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
+
+footer h4 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}

@@ -1,0 +1,22 @@
+.Main {
+  margin: auto;
+  padding: 0px;
+  width: 50%;
+  /* background-color: antiquewhite; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+}
+
+.nav-bar .hy {
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+header,
+main,
+footer {
+  text-align: center;
+}
